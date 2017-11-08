@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/.bin/rollup main.js --output.format cjs --output.file bundle.js"
   },
+  "homepage": "https://github.com/l-brett/drop-table",
   "keywords": [
     "loot",
     "table",
