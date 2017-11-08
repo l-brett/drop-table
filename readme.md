@@ -5,7 +5,7 @@ A small library for creating a loot table that can be use for receiving random l
 It is simple to use, just create a new instance of `DropTable`.
 
 ```js
-let table = new  DropTable();
+let table = new DropTable();
 ```
 
 And start adding items.
@@ -30,4 +30,9 @@ Remove items by name:
 
 ```js
 table.removeItem('elixir');
+```
+
+And of course get a random result
+```js
+let result = table.drop();
 ```
