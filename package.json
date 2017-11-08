@@ -1,6 +1,6 @@
 {
   "name": "drop-table",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A small library for providing a random result from a list of pre-defined weighted options",
   "main": "./dist/bundle.js",
   "scripts": {
