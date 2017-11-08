@@ -1,5 +1,6 @@
-var DropTable = (function (exports) {
 'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
 
 class DropTable {
     constructor(items) {
@@ -83,7 +84,3 @@ class DropTable {
 }
 
 exports.DropTable = DropTable;
-
-return exports;
-
-}({}));
