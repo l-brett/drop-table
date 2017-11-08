@@ -78,3 +78,5 @@ export class DropTable {
         });
     }
 }
+
+export default DropTable;

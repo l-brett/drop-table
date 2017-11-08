@@ -84,3 +84,4 @@ class DropTable {
 }
 
 exports.DropTable = DropTable;
+exports['default'] = DropTable;
