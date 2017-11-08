@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>DropTable Test</title>
+        
+      
+    </head>
+    <body>
+        <script type="module">
+                import DropTable from './DropTable.js';
+                window.table = new DropTable([
+                {name:'potion','weight':0.25},
+                {name:'elixir','weight':0.25},
+                {name:'phoenix down',weight:0.25},
+                {name:'hi-potion',weight:0.25},
+                {name:'mega-potion',weight:0.25}]);
+                console.log(table);
+        </script>
+    </body>
+</html>

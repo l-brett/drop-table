@@ -1,0 +1,20 @@
+{
+  "name": "drop-table",
+  "version": "1.0.1",
+  "description": "A small library for providing a random result from a list of pre-defined weighted options",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node_modules/.bin/rollup main.js --output.format cjs --output.file bundle.js"
+  },
+  "keywords": [
+    "loot",
+    "table",
+    "random",
+    "generator",
+    "drop"
+  ],
+  "files": ["dist/bundle.js"],
+  "author": "Leon Brett",
+  "license": "ISC"
+}
